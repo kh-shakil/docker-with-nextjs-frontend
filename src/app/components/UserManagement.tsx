@@ -27,7 +27,7 @@ const UserManagement = ({ users }: any) => {
   return (
     <div className="flex flex-col h-screen w-screen bg-black">
       <h1 className="text-4xl font-extrabold text-center text-white mt-6">
-        User Management Page
+        User Management Page UI
       </h1>
       <div className="flex-grow flex justify-center items-center">
         <div className="card">

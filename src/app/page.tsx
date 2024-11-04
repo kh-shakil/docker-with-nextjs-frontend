@@ -10,7 +10,7 @@ const Home = async () => {
       tags: ["users"],
     },
   });
-  const { data } = await users.json();
+  const { data } = await users.json() || {};
 
   return <UserManagement users={data} />;
 };
